@@ -8,9 +8,8 @@ This repository provides the code for accessing altimetry and model data, as wel
 * Pedro Walfir      
 * Yifei Hang      
 
-## Planning
+## Additional Informations
 
-* Initial idea: "short description"
 * Ideation Presentation: [Project Pitch](https://docs.google.com/presentation/d/1MG32LTh15YH1vHQdv_7U-SAyclAFcNLs-xWWvf0eZ8g/edit#slide=id.g2f660589f1f_28_0)
 * Slack channel: ohw24_proj_upssh_us
 * Final presentation: [Project Presentation](https://docs.google.com/presentation/d/1Z9WfwqM1KbRRhXcNXrDurZ-Vts_iLjF75h0j9Lux4_o/edit#slide=id.p)
