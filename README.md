@@ -50,11 +50,6 @@ Find a suitable neural network arhitecture for increasing sea surface height dat
 ## Results/Findings
 
 
-
-## Lessons Learned
-
-
-
 ## References
 
 Höhlein, K., Kern, M., Hewson, T., & Westermann, R. (2020). A comparative study of convolutional neural network models for wind field downscaling. Meteorological Applications, 27(6), e1961.
