@@ -54,28 +54,8 @@ You can start with a simple structure and as you progress you can refine it to c
 
 ## References
 
-@article{hohlein2020comparative,
-  title={A comparative study of convolutional neural network models for wind field downscaling},
-  author={H{\"o}hlein, Kevin and Kern, Michael and Hewson, Timothy and Westermann, R{\"u}diger},
-  journal={Meteorological Applications},
-  volume={27},
-  number={6},
-  pages={e1961},
-  year={2020},
-  publisher={Wiley Online Library},
-  doi={https://doi.org/10.1002/met.1961}
-}
+Höhlein, K., Kern, M., Hewson, T., & Westermann, R. (2020). A comparative study of convolutional neural network models for wind field downscaling. Meteorological Applications, 27(6), e1961.
 
-@article{zhang2018road,
-  title={Road extraction by deep residual u-net},
-  author={Zhang, Zhengxin and Liu, Qingjie and Wang, Yunhong},
-  journal={IEEE Geoscience and Remote Sensing Letters},
-  volume={15},
-  number={5},
-  pages={749--753},
-  year={2018},
-  publisher={IEEE},
-  doi={https://doi.org/10.1109/LGRS.2018.2802944}
-}
+Zhang, Z., Liu, Q., & Wang, Y. (2018). Road extraction by deep residual u-net. IEEE Geoscience and Remote Sensing Letters, 15(5), 749-753.
 
 
