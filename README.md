@@ -1,18 +1,12 @@
 # Upscaling Sea Surface Height
 
-You can start with a simple structure and as you progress you can refine it to contain more components. [Here](https://cookiecutter-data-science.drivendata.org/#directory-structure) is an example of a more elaborate structure for a data science project.
-
-## One-line Description
-
-Use a neural network to increase Sea Surface Height data resolution of coarse scale measurements.
+This repository provides the code for accessing altimetry and model data, as well as the U-Net neural network implementation used to upscale altimetry data from 1/4 to 1/12 degrees.
 
 ## Collaborators
 
-| Name                | 
-|---------------------|
-| Lara Schlumbom      |
-| Pedro Walfir       | 
-| Yifei Hang       |
+* Lara Schlumbom      
+* Pedro Walfir      
+* Yifei Hang      
 
 ## Planning
 
