@@ -8,11 +8,11 @@ Use a neural network to increase Sea Surface Height data resolution of coarse sc
 
 ## Collaborators
 
-| Name                | Location   | Role                |
-|---------------------|------------|---------------------|
-| Lara Schlumbom      | Bigelow    | Participant |
-| Pedro Walfir       | Bigelow    | Participant         |
-| Yifei Hang       | Bigelow    | Participant         |
+| Name                | 
+|---------------------|
+| Lara Schlumbom      |
+| Pedro Walfir       | 
+| Yifei Hang       |
 
 ## Planning
 
