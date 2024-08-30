@@ -23,7 +23,10 @@ Use a neural network to increase Sea Surface Height data resolution of coarse sc
 
 ## Background
 
-mention: why increase resolution (importance of resolving finer scale phenomena); intro on neural networks; how can neural networks be applied to this
+Traditional altimetry products, with a resolution of 1/4°, fail to capture the fine-scale motions in the ocean. The recently launched SWOT satellite addresses this limitation by providing sea surface height (SSH) measurements at a much finer resolution of 1 km. However, its coverage is restricted to narrow swaths, limiting its utility for global ocean monitoring.
+
+Neural networks, particularly convolutional architectures like U-Net, have proven to be powerful tools in this context. By learning complex patterns from high-resolution model outputs, these networks can significantly enhance the resolution of SSH data from classical altimetry, bridging the gap between coarse measurements and the detailed dynamics observed in the ocean. In our project, we leverage a U-Net trained on GLORYS12V1 model outputs to upscale SSH data from 1/4° to 1/12°. This approach not only provides ocean scientists with more detailed information but also demonstrates the transformative potential of neural networks in advancing our understanding of ocean dynamics.
+
 
 ## Goals
 
