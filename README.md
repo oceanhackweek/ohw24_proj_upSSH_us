@@ -27,25 +27,32 @@ Find a suitable neural network arhitecture for increasing sea surface height dat
 
 ## Datasets
 
-**1. GLORYS12V1 Absolute Dynamic Topography**
+**GLORYS12v1 Absolute Dynamic Topography**
 
-  We used the GLORYS12V1 product from the CMEMS global ocean eddy-resolving reanalysis, with a horizontal resolution of 1/12°, for training the model. That data can be accessed [here](https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description).
+  We used the [GLORYS12v1 product](https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description) from the CMEMS global ocean eddy-resolving reanalysis, with a horizontal resolution of 1/12°, for training the model.
    
-**2. AVISO Absolute Dynamic Topography**
+**AVISO Absolute Dynamic Topography**
 
-   The DUACS delayed-time altimeter gridded maps of sea surface height distributed by the Copernicus Climate Change Service were used as a reference for the lower resolution grid. This data has horizontal spatial resolution of 1/4° and can be accessed through [this link](https://data.marine.copernicus.eu/product/SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057/description).
+   The [DUACS delayed-time altimeter](https://data.marine.copernicus.eu/product/SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057/description) gridded maps of sea surface height distributed by the Copernicus Climate Change Service were used as a reference for the lower resolution grid. This data has horizontal spatial resolution of 1/4°.
 
-**3. SWOT Level 3 Absolute Dynamic Topography**
+**SWOT Level 3 Absolute Dynamic Topography**
 
-   The Surface Water and Ocean Topography Satellite (SWOT) Level 3 data was used for selecting the region in which to validate the model. That data can be accessed [here](https://www.aviso.altimetry.fr/en/data/products/sea-surface-height-products/global/swot-l3-ocean-products.html).
+   The [Surface Water and Ocean Topography Satellite (SWOT) Level 3 data](https://www.aviso.altimetry.fr/en/data/products/sea-surface-height-products/global/swot-l3-ocean-products.html) was used for selecting the region in which to validate the model.
 
-**4. SWOT Level 4 Absolute Dynamic Topography**
+**SWOT Level 4 Absolute Dynamic Topography**
 
-   The SWOT Level 4 data was used for validating the model trained on GLORYS data. That data can be accessed through [this link](https://www.aviso.altimetry.fr/en/data/products/sea-surface-height-products/global/experimental-multimission-gridded-l4-sea-level-heights-and-velocities-with-swot.html).
+   The [SWOT Level 4 data](https://www.aviso.altimetry.fr/en/data/products/sea-surface-height-products/global/experimental-multimission-gridded-l4-sea-level-heights-and-velocities-with-swot.html) was used for validating the model trained on GLORYS data.
 
 ## Workflow/Roadmap
 
-
+1. Get GLORYS and AVISO data
+2. Downscale GLORYS data to AVISO resolution
+3. Find a neural network architeture to work with
+4. Restructure U-Net architecture to fit the input and output dimensions of our data
+5. Run the model and compare output to original GLORYS data
+6. Get SWOT data and select validation region
+7. Interpolate SWOT data to AVISO and GLORYS resolution
+8. Validate upscaled altimetry output with SWOT data
 
 ## Results/Findings
 
